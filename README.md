@@ -32,3 +32,6 @@ This project adheres to the OOP paradigm through **Encapsulation**:
 *   The `heap` vector, `heapifyUp`, and `heapifyDown` methods are kept **private** inside the `TaskScheduler` class.
 *   This prevents the user or main program from accidentally corrupting the tree structure.
 *   The `AITask` is implemented as a `struct` to keep the task name and priority glued together as a single data package, ensuring they are never separated during swaps.
+
+ 
+
